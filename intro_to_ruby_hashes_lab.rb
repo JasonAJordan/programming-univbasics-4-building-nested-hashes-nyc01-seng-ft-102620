@@ -28,7 +28,10 @@ def monopoly_with_third_tier
   base[:railroads][:rent_in_dollars] = {}
   base[:railroads][:names] = {}
   
-  base[:railroads][:rent_in_dollars][]
+  base[:railroads][:rent_in_dollars][:one_piece_owned] = 25
+  base[:railroads][:rent_in_dollars][:two_pieces_owned] = 50
+  base[:railroads][:rent_in_dollars][:three_pieces_owned] = 100
+  base[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
 
 end
 
