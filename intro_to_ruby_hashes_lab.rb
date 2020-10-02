@@ -35,6 +35,11 @@ def monopoly_with_third_tier
   base[:railroads][:rent_in_dollars][:four_pieces_owned] = 200
 
   base[:railroads][:names][:reading_railroad] = {}
+  base[:railroads][:names][:pennsylvania_railroad] = {}
+  base[:railroads][:names][:b_and_o_railraod] = {}
+  base[:railroads][:names][:shortline_railraod] = {}
+  
+  base
 end
 
 def monopoly_with_fourth_tier
