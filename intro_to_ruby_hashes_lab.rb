@@ -11,6 +11,9 @@ def monopoly_with_second_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
 
+  base[:railroads][:pieces] = 4
+  base[:railroads][:rent_in_dollars] = {}
+  base[:railroads][:names] = {}
 end
 
 def monopoly_with_third_tier
